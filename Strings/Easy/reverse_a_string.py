@@ -19,8 +19,7 @@ def reverse_a_string(s: str) -> str:
     return s[::-1]
 
 
-string_input = "hello"
-print(reverse_a_string(string_input))
+print(reverse_a_string("hello"))
 
 
 # Method 2 using for loop
@@ -34,5 +33,4 @@ def reverse_a_string_using_loop(s: str) -> str:
     return reversed_string
 
 
-string_input = "hello"
-print(reverse_a_string(string_input))
+print(reverse_a_string("hello"))
